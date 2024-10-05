@@ -94,7 +94,7 @@ export default function Home() {
           />
           <Button onClick={handleAdd}>Add</Button>
         </div>
-        <div className="tasks">
+        <div className="tasks flex flex-col gap-4">
           {tasks.map((task)=>
           <div className="task flex items-center justify-between bg-slate-400 rounded-md px-4 py-6"
           key={task.id}
